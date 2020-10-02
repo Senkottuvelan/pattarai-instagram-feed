@@ -4,7 +4,7 @@
   }
 }
 body{
-  background: url(/feed/back.jpg);
+  background: url('https://res.cloudinary.com/senkottu/image/upload/v1601635799/mycdn/back_u1ymqe.jpg');
   background-size:cover;
 }
 .my-heading{
