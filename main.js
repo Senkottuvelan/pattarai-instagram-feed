@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  if (screen.width <= 699) {
+  if (screen.width <= 576) {
 document.location = "/feed/mobile/";
 }
   $.ajax({
