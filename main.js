@@ -1,4 +1,7 @@
 $(document).ready(function(){
+  if (screen.width <= 699) {
+document.location = "/feed/mobile/";
+}
   $.ajax({
     url:'https://elevate-be-staging.azurewebsites.net/instafeed.php',
     type:"POST",
